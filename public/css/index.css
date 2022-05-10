@@ -8,8 +8,15 @@
     src: url('../fonts/Montserrat-Light.otf');
 }
 
+@font-face {
+    font-family: italic-font;
+    src: url('../fonts/Montserrat-Italic.otf');
+}
 
 
+.description-value{
+    font-style: italic;
+}
 
 
 .values {
