@@ -1,0 +1,256 @@
+
+@media (max-width: 790px) {
+    .banner-portfolio-section {
+        padding: 20% 0px 0px 0px;
+    }
+
+    .download-section-line {
+        width: 86%;
+    }
+
+    .partners {
+        padding: 0px 0px 0px 4%;
+    }
+
+    .download-section-left {
+        padding: 9% 0px 0px 2%;
+    }
+
+    .magic-button {
+        width: 51%;
+    }
+
+    .team-line {
+        height: 1px;
+    }
+
+    .team-text-float {
+        float: right;
+        padding: 2% 0px 0px 0px;
+    }
+
+    .values {
+        padding: 5% 10% 17% 10%;
+    }
+
+    .spotligth-logo {
+        width: 2.5em;
+        height: 4.5em;
+    }
+
+    .instinct-section {
+        margin: 3% 0px 8% 0px;
+    }
+
+    .download-section-rigth {
+        padding: 8% 0px 0px 15%;
+        line-height: 6px;
+    }
+
+    .portfolio-text-last-section {
+        padding: 2% 0px 0px 9%;
+    }
+
+
+    .banner-portfolio-border {
+        width: 98%;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .header-download-subection {
+        padding: 5% 0px 0px 0px;
+    }
+
+    header {
+        height: 882px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .spotligth-logo {
+        width: 2.5em;
+        height: 4.5em;
+    }
+
+    .ad-arrow img{
+        margin: 40% 0px auto;
+    }
+
+    .header-button {
+        width: 57%;
+        display: table;
+        margin: 0 auto;
+        padding: 2% 0px 0px 0px;
+    }
+
+
+    .team-instinct-text {
+        font-size: .7em;
+        letter-spacing: 8px;
+        padding: 1% 0px 5% 0px;
+    }
+
+    .title {
+        font-size: .3em;
+        padding: 2% 0px 0px 0px;
+        margin: 0px 0px 7% 0px;
+    }
+
+    .icon {
+        font-size: 1.5em;
+    }
+
+    .footer-card p {
+        font-size: .4em;
+    }
+
+    .footer-tittle {
+        font-size: .5em;
+        letter-spacing: 7px;
+    }
+
+    .office {
+        font-size: .2em;
+        margin: 0px 0px 7% 0px;
+    }
+
+    .team-instinct {
+        padding: 4% 0px 2% 4%;
+    }
+
+    .team-line-tittle {
+        width: 33%;
+        float: none;
+        margin: 0 auto;
+        display: table;
+        height: 3px;
+    }
+
+    .download-section {
+        min-height: 500px;
+        padding: 5% 5% 0px 0px;
+    }
+
+    .team-text-section {
+        text-align: center;
+    }
+
+    .download-section-rigth p {
+        padding: 0px 0px 0px 13%;
+    }
+    .download-subection{
+        margin: 0px 0px 0px 25%;
+    }
+
+    .download-year {
+        font-size: 4.9em;
+    }
+
+    .banner-2-1 {
+        padding: 10% 0px 0px 0px;
+    }
+
+    .banner-2-2 {
+        padding: 7% 0px 0px 5%;
+    }
+
+    .banner-2-3 {
+        padding: 7% 0px 0px 13%;
+    }
+
+    .work-img {
+        max-width: 75%;
+        min-width: 50%;
+    }
+
+    .download-section-left-text {
+        font-size: .6em;
+        font-style: italic;
+    }
+
+    .tittle-value {
+        font-size: 1.7em;
+        margin: 23% 0px 4% 0px;
+    }
+
+    .value-line {
+        height: 4px;
+        width: 64%;
+        margin: .1em 0px .9em 0px;
+    }
+
+    .description-value {
+        font-size: 1.4em;
+        padding: 0px 17% 0px 0%;
+    }
+
+    .working-with-p {
+        font-size: 1.5em;
+        float: none;
+        padding: 3% 0px 0px 4%;
+    }
+
+    .team-p {
+        font-size: 1.5em;
+        float: none;
+        padding: 2% 0px 0px 0px;
+    }
+
+    .ad-arrow {
+        padding: 11% 0px 0px 2%;
+        background-color: transparent;
+    }
+
+    .spotligth-slogan {
+        padding: 0px 0px 0px 5%;
+        font-size: .9em;
+        letter-spacing: 9px;
+        font-weight: 700;
+    }
+
+    .download-portfolio {
+        font-size: 1.9em;
+        margin: 0px 0px 2% 3%;
+    }
+
+    .partners {
+        padding: 0px 0px 0px 5%;
+        }
+
+    .banner-1 {
+        padding: 0px 13% 0px 0px;
+    }
+
+    .banner-2 {
+        padding: 0px 7% 0px 0px;
+    }
+
+    .banner-lets-text {
+        font-size: 8em;
+        font-style: italic;
+    }
+
+    .banner-text-portfolio {
+        font-size: 2.7em;
+    }
+
+    .banner-text-year {
+        font-size: 6.7em;
+    }
+
+    .banner-3 {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .hide-500 {
+        display: none;
+    }
+
+    .working-with-line {
+        height: 4px;
+    }
+
+    .show-500 {
+        display: table;
+    }
+}

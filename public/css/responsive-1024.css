@@ -1,0 +1,10 @@
+
+
+        @media only screen and (max-width: 1024px) {
+            .download-section-rigth p {
+                padding: 0px 0px 0px 0%;
+            }
+            .download-section-line{
+                height: 4x;
+            }
+        }

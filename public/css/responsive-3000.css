@@ -1,0 +1,140 @@
+@import "index.css";
+
+@media (max-width:4000px) {
+
+    .team-text-section{
+        padding: 5% 0px 6% 0px;
+    }
+
+    .mobile-values {
+        display: none;
+    }
+
+    .web-values {
+        display: block;
+    }
+
+    .value-line {
+        background-color: white;
+        margin: .2em 0px 1.5em 0px;
+        height: 8px;
+    }
+
+    .download-section-line{
+        height: 9px;
+    }
+
+    .ad-arrow {
+        background-color: rgb(27, 27, 29);
+    }
+
+    .working-with-line {
+        height: 8px;
+        background-color: #b92038;
+        width: 47%;
+        margin: 0px 0px 2.5em 0px;
+    }
+
+    .working-with-line {
+        height: 8px;
+        background-color: #b92038;
+        width: 47%;
+        margin: 0px 0px 2.5em 0px;
+    }
+
+    .team-instinct-text {
+        letter-spacing: 29px;
+        font-family: light-font;
+        margin: 0 auto;
+        display: table;
+        font-size: 2.2em;
+        color: black;
+        padding: 0px 0px 2% 0px;
+        font-weight: 600;
+    }
+
+    .team-text-float {
+        float: right;
+        padding: 7% 0px 0px 0px;
+    }
+
+    .tittle-value {
+        font-size: 3.8em;
+    }
+
+    .download-section-rigth {
+        padding: 6% 0px 5% 16%;
+    }
+
+    .values {
+        padding: 5% 10% 3% 10%;
+    }
+
+    header {
+        border-bottom-right-radius: 100px 135px;
+    }
+
+    .banner-portfolio-border {
+        width: 100%;
+        height: 9px;
+        background-color: #b92038;
+        padding-right: 0px;
+    }
+
+    .show-500 {
+        display: none;
+    }
+
+    .working-with-p {
+        font-size: 5em;
+        text-transform: uppercase;
+        padding: 3% 0px 0px 5%;
+        margin: 0px;
+        font-style: italic;
+    }
+
+    .team-p {
+        font-size: 5em;
+        text-transform: uppercase;
+        margin: 0px;
+        font-style: italic;
+    }
+
+    .work-img {
+        max-width: 200px;
+        min-width: 170px;
+    }
+
+    .download-portfolio {
+        font-size: 4em;
+        line-height: .5em;
+    }
+
+    .download-year {
+        font-size: 9.3em;
+        line-height: 0.9em;
+    }
+
+    .download-section-rigth p {
+        padding: 0px 0px 0px 16%;
+    }
+
+    .tittle{
+        font-size: 1.6em;
+    }
+
+    .team-line-tittle {
+        height: 7px;
+        background-color: #b92038;
+        width: 100%;
+        float: left;
+    }
+
+    .office {
+        font-size: .8em;
+        font-family: light-font;
+        font-weight: 100;
+        line-height: 1.5em;
+        text-align: center;
+    }
+}

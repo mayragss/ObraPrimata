@@ -1,0 +1,210 @@
+@font-face {
+    font-family: initial-font;
+    src: url('../fonts/Montserrat-Black.otf');
+}
+
+@font-face {
+    font-family: light-font;
+    src: url('../fonts/Montserrat-Light.otf');
+}
+
+
+
+
+
+.values {
+    margin: 0px;
+    background-image: url(../images/valores.png);
+    color: white;
+}
+
+body {
+    font-family: initial-font;
+    background-color: #000;
+}
+
+.team-instinct {
+    background-color: white;
+}
+
+.header-portfolio-section {
+    font-style: italic;
+}
+
+/* HEADER SECTION*/
+
+.sidenav {
+    width: 300px;
+    height: 700px;
+    background-color: blue;
+    grid-area: "sidenav";
+
+    border-radius: 20px;
+
+}
+
+.item {
+    width: 300px;
+    height: 300px;
+    background-color: khaki;
+
+}
+
+.spotligth {
+    display: block;
+    width: 100%;
+    color: #fff;
+}
+
+.spotligth-ligth-text-first {
+    font-size: .7em;
+    font-weight: 700;
+    letter-spacing: 15px;
+    font-family: light-font;
+    margin: 0px;
+}
+
+.spotligth-ligth-text-second {
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+.header-line {
+    height: 5px;
+    background-color: #b92038;
+    margin: 0 auto;
+    width: 97%;
+    float: left;
+}
+
+.ligth-section {
+    margin: 0px;
+    float: right;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    color: #fff;
+}
+
+.banner-portfolio-section {
+    height: 300px;
+    text-transform: uppercase;
+    line-height: .4em;
+    font-weight: 900;
+}
+
+.row {
+    margin: 0px;
+}
+
+header {
+    background: url(../images/header.svg);
+    background-size: cover;
+}
+
+.posts {
+    height: 370px;
+    padding-top: 3%;
+}
+
+
+
+.ad {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ad-arrow {
+    min-height: 250px;
+    max-height: 350px;
+    margin: 2% 0px auto;
+}
+
+
+.description-value {
+    font-family: light-font;
+    font-weight: 700;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    color: rgba(228, 225, 225, 0.95);
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.section-working-label {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.partners {
+    background-color: white;
+}
+
+.download-section-line {
+    background-color: #b92038;
+    padding-right: 0px;
+    box-shadow: 5px 2px 5px black;
+}
+
+.download-section-rigth {
+    text-shadow: 5px 2px #000;
+}
+
+.download-section-button {
+    width: 100%;
+}
+
+.team-first-section {
+    background-color: white;
+    padding: 2% 11% 1% 8%;
+    text-align: center;
+}
+
+.team-img {
+    padding: 0px 0px 2% 0px;
+}
+
+.team-img img {
+    width: 100%;
+    padding: 0px 5% 0px 0px;
+}
+
+.team-second-section {
+    background-color: white;
+    padding: 0px 11% 1% 13%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-line {
+    background-color: #b92038;
+    width: 35%;
+    margin: 0 auto;
+}
+
+
+footer {
+    padding: 5% 8% 8% 8%;
+    font-family: light-font;
+    color: white;
+}
+
+.footer-card {
+    padding: 0px 0px 5% 0px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-section {
+    padding: 0px 0px 3% 0px;
+}

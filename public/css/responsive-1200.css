@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+    .description-value {
+        padding: 0px 10% 0px 0px;
+        font-size: 1.4em;
+    }
+
+    .value-line {
+        width: 74%;
+        margin: .1em 0px .9em 0px;
+    }
+
+    .values {
+        padding: 8% 7% 9% 8%;
+    }
+
+    .header-button {
+        width: 50%;
+    }
+
+    .download-section-line {
+        height: 6px;
+    }
+
+}
+
+@media (max-width: 1220px) {
+    .banner-lets-text {
+        font-size: 14em;
+    }
+
+    .banner-portfolio-section {
+        padding: 12% 0px 0px 5%;
+    }
+
+    .banner-text-portfolio {
+        font-size: 2.6em;
+    }
+
+    .banner-text-year {
+        font-size: 6.6em;
+    }
+
+    .banner-portfolio-border {
+        height: 8px;
+    }
+}

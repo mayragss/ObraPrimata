@@ -1,0 +1,245 @@
+
+
+@media (max-width: 1560px) {
+    .working-with-p {
+        font-size: 4em;
+    }
+
+    .team-p {
+        font-size: 4em;
+        text-transform: uppercase;
+        margin: 0px;
+    }
+
+    .team-text-float {
+        float: right;
+        padding: 7% 0px 0px 0px;
+    }
+
+    .tittle-value {
+        font-size: 1.8em;
+    }
+
+    .download-section-rigth {
+        padding: 8% 0px 0px 14%;
+    }
+
+    .value-line {
+        width: 80%;
+    }
+
+    .spotligth-ligth {
+        margin: 0px;
+        padding: 0px 3% 0px 0px;
+    }
+
+    .banner-lets-section {
+        padding: 2% 0px 0px 1%;
+    }
+
+    .team-text-section {
+        padding: 3% 0px 6% 0px;
+    }
+
+    .description-value {
+        font-size: 1.1em;
+    }
+
+    .ad-arrow {
+        padding: 0px;
+    }
+
+    .spotligth-slogan {
+        margin: 0 auto;
+        display: table;
+        letter-spacing: 11px;
+        font-family: light-font;
+        padding: 4% 0px 0px 0px;
+        font-size: .8em;
+        font-weight: 500;
+    }
+
+    .download-section {
+        background: url(../images/makemagic.png);
+        background-size: cover;
+        color: white;
+        min-height: 27em;
+    }
+
+    .download-portfolio {
+        font-size: 3.8em;
+        line-height: .4em;
+    }
+
+    .download-year {
+        font-size: 9.3em;
+    }
+
+    .banner-text-portfolio {
+        font-size: 3.9em;
+    }
+
+    .banner-portfolio-section {
+        padding: 10% 0px 0px 0%;
+    }
+
+    .ligth-section {
+        padding: 15% 5% 3% 0px;
+    }
+
+    .spotligth-ligth {
+        display: inline-block;
+    }
+
+    .spotligth-logo {
+        float: right;
+        padding-right: 7%;
+        width: 5em;
+    }
+
+    .spotligth-item-image {
+        position: relative;
+    }
+
+    header {
+        height: 800px;
+    }
+
+    .banner-lets-text {
+        font-size: 16.4em;
+        line-height: .8em;
+        font-weight: 900;
+        font-style: italic;
+        padding: 0px 0px 0px 3%;
+    }
+
+    .banner-text-year {
+        font-size: 9.6em;
+        line-height: 0.9em;
+    }
+
+    .header-download-subection {
+        padding: 5% 0px 0px 8%;
+    }
+
+    .banner-portfolio-border{
+        height: 8px;
+    }
+
+    .header-button {
+        width: 59%;
+    }
+
+    .ad-image {
+        margin: 0 auto;
+        display: table;
+        min-height: 300px;
+        max-height: 400px;
+        background-color: blue;
+        background-color: rgba(27, 27, 29, 0.86);
+        border-radius: 21px;
+    }
+
+    .ad-arrow img {
+        margin: 40% 0px auto;
+        width: 51px;
+        height: 75px;
+        filter: grayscale(100%);
+    }
+
+    .working-with-line {
+        height: 5px;
+        background-color: #b92038;
+        width: 60%;
+        margin: 0px 0px 2.5em 0px;
+    }
+
+    .max-display-block {
+        display: block;
+    }
+
+    .small-display-block {
+        display: none;
+    }
+
+    .download-section-rigth p {
+        padding: 0px 0px 0px 16%;
+    }
+
+    .download-section-left {
+        font-size: 7.9em;
+        line-height: .9em;
+        padding: 2% 0px 0px 5%;
+        text-shadow: 5px 2px #000;
+        margin: 0px;
+        font-style: italic;
+    }
+
+    .download-section-line {
+        width: 100%;
+        margin: 0px;
+        height: 7px;
+    }
+
+    .portfolio-text-last-section {
+        padding: 0px;
+    }
+
+    .magic-button {
+        width: 70%;
+        box-shadow: 5px 2px 5px black;
+    }
+
+    .download-subection {
+        text-align: center;
+        padding: 2% 15% 0px 0px;
+    }
+
+    .title {
+        font-size: 1em;
+        color: rgb(23, 23, 21);
+        font-family: light-font;
+        font-weight: 600;
+
+    }
+
+    .office {
+        font-size: .8em;
+        font-family: light-font;
+        font-weight: 100;
+        line-height: .4em;
+    }
+
+    .icon {
+        font-size: 4em;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .footer-card p {
+        font-size: .8em;
+        margin: 0 auto;
+        display: table;
+        font-style: italic;
+    }
+
+    .footer-tittle {
+        font-size: 1.5em;
+        font-weight: 400;
+        letter-spacing: 10px;
+        padding: 5% 0px 4% 0px;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .team-instinct-text {
+        font-family: light-font;
+        margin: 0 auto;
+        display: table;
+        font-size: 1.2em;
+        color: black;
+        letter-spacing: 14px;
+        font-weight: 600;
+    }
+
+}

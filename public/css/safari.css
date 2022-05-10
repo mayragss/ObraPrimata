@@ -1,0 +1,8 @@
+@media only screen and (min-width: 1000px) {
+
+    _::-webkit-full-page-media,
+    _:future,
+    :root .safari_only .lets-make-change {
+        font-size: 366px;
+    }
+}

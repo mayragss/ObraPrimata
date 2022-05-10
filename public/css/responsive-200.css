@@ -1,0 +1,34 @@
+
+@media(max-width: 200px) {
+    .description-value {
+        font-size: 8px;
+        padding: 0px 10% 15% 1%;
+    }
+
+    .download-subection {
+        margin: 0px 0px 0px 18%;
+    }
+
+    .magic-button {
+        width: 71%;
+    }
+
+    .download-section-rigth {
+        padding: 12% 6% 0px 21%;
+    }
+
+    .download-section-left-text {
+        line-height: 0.4em;
+    }
+
+    .team-instinct-text {
+        font-size: 0.5em;
+        letter-spacing: 4px;
+    }
+
+    .footer-tittle{
+        font-size: .4em;
+        letter-spacing: 6px;
+    }
+    
+}

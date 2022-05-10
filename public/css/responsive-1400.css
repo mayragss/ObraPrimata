@@ -1,0 +1,48 @@
+@media (max-width: 1400px) {
+    .description-value {
+        padding: 0px 10% 0px 0px;
+        font-size: 1.4em;
+    }
+
+    .value-line {
+        width: 74%;
+        margin: .1em 0px .9em 0px;
+    }
+
+    .values {
+        padding: 8% 7% 9% 8%;
+    }
+
+    .header-button {
+        width: 60%;
+    }
+
+    .header-download-subection {
+        padding: 5% 0PX 0PX 8%;
+    }
+    .download-subection{
+        padding: 2% 0% 0px 0px;
+    }
+
+    .magic-button{
+        width: 65%;
+    }
+    .download-section-line{
+        height: 8px;
+    }
+
+    .footer-tittle{
+        font-size: 1.7em;
+        letter-spacing: 21px;
+    }
+
+    .team-text-section {
+        padding: 3% 0px 5% 0px;
+        }
+
+        .team-instinct-text{
+            font-size: 1.7em;
+            letter-spacing: 20px;
+        }
+        
+}

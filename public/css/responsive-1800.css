@@ -1,0 +1,16 @@
+@media (max-width: 1800px) {
+    .footer-card p {
+        font-size: 1.2em;
+    }
+
+    .footer-card p:hover {
+        color: white;
+    }
+
+    .working-with-p {
+        font-size: 4.4em;
+    }
+    .team-instinct-text{
+        letter-spacing: 22px;
+    }
+}

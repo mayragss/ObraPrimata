@@ -1,0 +1,176 @@
+
+
+@media (max-width: 983px) {
+
+    .download-portfolio {
+        font-size: 4em;
+    }
+
+    .footer-tittle {
+        font-size: 1em;
+        font-weight: 400;
+        letter-spacing: 10px;
+        padding: 3% 0px 4% 0px;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .banner-portfolio-border{
+        height: 5px;
+    }
+
+    .mobile-values{
+        display: block;
+    }
+
+    .web-values{
+        display: none;
+    }
+
+    .footer-card p {
+        font-size: .6em;
+    }
+
+    .icon {
+        font-size: 2em;
+    }
+
+    .office {
+        font-size: .6em;
+    }
+
+    .title {
+        font-size: .8em;
+
+    }
+
+    .download-subection {
+        padding: 2% 0px 0px 0px;
+        text-align: initial;
+        margin: 0px 0px 0px 28%;
+    }
+
+    .magic-button {
+        width: 42%;
+        box-shadow: 5px 2px 5px black;
+    }
+
+    .portfolio-text-last-section {
+        padding: 2% 0px 0px 12%;
+    }
+
+    .download-section-line {
+        width: 73%;
+        margin: 0px 0px 0px 4%;
+    }
+
+    .team-text-section {
+        margin: 0 auto;
+    }
+
+    .download-section-left-text {
+        margin: 0 auto;
+        display: table;
+        font-style: normal;
+        font-size: 1.3em;
+        line-height: .1em;
+        padding: 7% 0px 0px 5%;
+        text-shadow: 5px 2px #000;
+    }
+
+    .download-section {
+        background: url(../images/makemagic.png);
+        background-size: cover;
+        color: white;
+        min-height: 800px;
+    }
+
+    .small-display-block {
+        display: block;
+    }
+
+    .banner-text-portfolio {
+        font-size: 2.5em;
+    }
+
+    .banner-text-year {
+        font-size: 6.5em;
+        line-height: 0.9em;
+    }
+
+    header {
+        height: 924px;
+    }
+
+    .spotligth-ligth {
+        display: none;
+    }
+
+    .spotligth-logo {
+        width: 4em;
+    }
+
+    .spotligth-item-image {
+        position: absolute;
+        margin: 0px 0px 0px 44%;
+    }
+
+    .instinct-section {
+        margin: 16% 0px 5% 0px;
+    }
+
+    .banner-lets-text {
+        font-size: 10em;
+        line-height: .8em;
+        font-weight: 900;
+        margin: 0 auto;
+        display: table;
+        font-style: initial;
+    }
+
+    .header-portfolio-section {
+        margin: 0 auto;
+        display: table;
+    }
+
+
+
+    .header-download-subection {
+        padding: 5% 0px 0px 27%;
+    }
+
+
+    .header-button {
+        width: 52%;
+    }
+
+    .ad-image {
+        margin: 0 auto;
+        display: table;
+        min-height: 300px;
+        max-height: 400px;
+        background-color: blue;
+        background-color: rgba(27, 27, 29, 0.86);
+        border-radius: 21px;
+    }
+
+
+    .ad-arrow img {
+        margin: 81% 0px auto;
+        width: 51px;
+        height: 75px;
+        filter: grayscale(100%);
+    }
+
+    .working-with-line {
+        height: 5px;
+        background-color: #b92038;
+        width: 69%;
+        margin: 0px 0px 2.5em 0px;
+    }
+
+    .small-display-none {
+        display: none;
+    }
+
+}

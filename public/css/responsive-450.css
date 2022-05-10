@@ -1,0 +1,147 @@
+
+@media(max-width: 450px) {
+    .download-section-line {
+        width: 80%;
+        height: 3px;
+    }
+
+    .working-with-p {
+        font-size: 1.4em;
+    }
+
+    .title {
+        padding: 5% 0px 0px 0px;
+        font-weight: 900;
+    }
+
+    .spotligth-slogan {
+        letter-spacing: 8px;
+    }
+
+    .header-button {
+        width: 40%;
+        padding: 4% 0px 0px 0px;
+    }
+
+    .description-value {
+        padding: 0px 16% 16% 0%;
+        text-align: justify;
+        font-size: 11px;
+        line-height: 1.5em;
+        word-break: break-all;
+    }
+
+    .team-p {
+        font-size: 1.3em;
+    }
+
+    .team-instinct {
+        padding: 4% 0px 2% 4%;
+    }
+
+    .team-instinct-text {
+        font-size: 0.6em;
+        letter-spacing: 6px;
+        padding: 0% 0px 5% 0px;
+    }
+
+    .team-line-tittle {
+        width: 31%;
+    }
+
+    .tittle-value{
+        font-size: 1.2em;
+    }
+
+    .portfolio-text-last-section {
+        padding: 2% 0px 0px 1%;
+    }
+
+    .download-section-rigth {
+        padding: 12% 0px 0px 21%;
+        line-height: 6px;
+        text-shadow: 4px 2px #000;
+    }
+
+    .download-section-rigth p {
+        padding: 0px 0px 0px 13%;
+    }
+
+    .download-subection {
+        margin: 0px 0px 0px 21%;
+    }
+
+    .download-portfolio {
+        font-size: 1.7em;
+    }
+
+    .download-year {
+        font-size: 4.3em;
+    }
+
+    .magic-button {
+        width: 55%;
+    }
+
+    .footer-card p {
+        font-size: .3em;
+    }
+
+    .team-text-section{
+        padding: 3% 0px 0px 0px;
+    }
+
+    .download-section-left-text {
+        font-size: .6em;
+        font-style: italic;
+        line-height: .4em;
+    }
+
+    .download-section-left {
+        padding: 9% 0px 0px 2%;
+        letter-spacing: 4px;
+    }
+
+
+    .banner-2-1 {
+        padding: 10% 0px 0px 0px;
+    }
+
+    .banner-2-2 {
+        padding: 7% 0px 0px 5%;
+    }
+
+
+    .banner-2-3 {
+        padding: 7% 0px 0px 13%;
+    }
+
+    .value-line {
+        height: 0.2em;
+        margin: 0px 0px 4% 0px;
+        width: 65%;
+    }
+
+    .values {
+        padding: 11% 4% 8% 7%;
+        }
+
+    header {
+        height: 584px;
+    }
+
+    .header-portfolio-section {
+        padding: 5% 0px 0px 0px;
+    }
+
+    .partners {
+        background-color: white;
+        padding: 0px 0px 0px 5%;
+    }
+
+    .download-section {
+        min-height: 436px;
+        padding: 5% 11% 0px 0px;
+    }
+
+}

@@ -1,0 +1,225 @@
+
+@media (max-width: 2460px) {
+    .tittle-value {
+        font-size: 2.8em;
+    }
+
+    .team-text-section{
+        padding: 5% 0px 6% 0px;
+    }
+
+    .download-section-rigth {
+        padding: 6% 0px 5% 16%;
+    }
+
+    .value-line {
+        width: 77%;
+    }
+
+    .spotligth-ligth {
+        margin: 0px;
+        padding: 1% 6% 0px 0px;
+    }
+
+    .banner-lets-section {
+        padding: 1% 7% 0px 0px
+    }
+
+    .values{
+        padding: 10% 8% 8% 8%;
+    }
+
+    .description-value {
+        font-size: 1.8em;
+        padding: 0px 18% 0px 0px;
+    }
+
+    .ad-arrow {
+        padding: 0px;
+    }
+
+    .spotligth-slogan {
+        margin: 0 auto;
+        display: table;
+        letter-spacing: 16px;
+        font-family: light-font;
+        padding: 4% 0px 0px 0px;
+        font-size: 1.8em;
+        font-weight: 500;
+    }
+
+    .download-section {
+        background: url(../images/makemagic.png);
+        background-size: cover;
+        color: white;
+        min-height: 22em;
+    }
+
+    .banner-text-portfolio {
+        font-size: 3.9em;
+    }
+
+    .banner-portfolio-section {
+        padding: 10% 0px 0px 0%;
+    }
+
+    .ligth-section {
+        padding: 15% 0px 3% 0px;
+    }
+
+    .spotligth-ligth {
+        display: inline-block;
+    }
+
+    .spotligth-logo {
+        float: right;
+        padding-right: 7%;
+        width: 6.4em;
+    }
+
+    .spotligth-item-image {
+        position: relative;
+    }
+
+    .team-line {
+        height: 3px;
+    }
+
+    header {
+        height: 1030px;
+    }
+
+    .banner-lets-text {
+        font-size: 21em;
+        line-height: .8em;
+        font-weight: 900;
+        font-style: italic;
+    }
+
+    .banner-text-year {
+        font-size: 10.5em;
+        line-height: 1em;
+    }
+
+    .header-download-subection {
+        padding: 5% 0px 0px 5%;
+    }
+
+    .header-button {
+        width: 52%;
+    }
+
+    .ad-image {
+        margin: 0 auto;
+        display: table;
+        min-height: 330px;
+        max-height: 400px;
+        background-color: blue;
+        background-color: rgba(27, 27, 29, 0.86);
+        border-radius: 21px;
+    }
+
+    .ad-arrow img {
+        margin: 30% 0px auto;
+        width: 51px;
+        height: 75px;
+        filter: grayscale(100%);
+    }
+
+    .working-with-line {
+        height: 8px;
+        background-color: #b92038;
+        width: 50%;
+        margin: 0px 0px 2.5em 0px;
+    }
+
+    .max-display-block {
+        display: block;
+    }
+
+    .small-display-block {
+        display: none;
+    }
+
+    .download-section-left {
+        font-size: 10.7em;
+        line-height: .9em;
+        padding: 2% 0px 0px 5%;
+        text-shadow: 5px 2px #000;
+        margin: 0px;
+        font-style: italic;
+    }
+
+    .download-section-line {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .portfolio-text-last-section {
+        padding: 0px;
+        font-style: italic;
+    }
+
+    .magic-button {
+        width: 74%;
+        box-shadow: 5px 2px 5px black;
+    }
+
+    .download-subection {
+        margin: 0 auto;
+        display: table;
+        padding: 2% 0px 0px 0px;
+    }
+    
+
+    .title {
+        font-size: 1.4em;
+        color: rgb(23, 23, 21);
+        font-family: light-font;
+        font-weight: 600;
+        padding: 3% 0px 0px 0px;
+        text-align: center;
+    }
+
+    .office {
+        font-size: 1em;
+        font-family: light-font;
+        font-weight: 100;
+        line-height: 1em;
+        text-align: center;
+    }
+
+    .icon {
+        font-size: 8em;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .footer-card p {
+        font-size: 1.5em;
+        margin: 0 auto;
+        display: table;
+        font-style: italic;
+    }
+
+    .footer-tittle {
+        font-size: 2.3em;
+        font-weight: 400;
+        letter-spacing: 33px;
+        padding: 3% 0px 4% 0px;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .team-instinct-text {
+        font-family: light-font;
+        margin: 0 auto;
+        display: table;
+        font-size: 2.2em;
+        color: black;
+        letter-spacing: 28px;
+        padding: 0px 0px 2% 0px;
+        font-weight: 600;
+    }
+
+}

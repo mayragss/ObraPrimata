@@ -1,0 +1,95 @@
+@media(max-width: 356px) {
+    .ad-arrow {
+        padding: 16px 0px 0px 2%;
+    }
+
+    .download-section-left-text {
+        font-size: .5em;
+    }
+
+    .download-year {
+        font-size: 3.6em;
+    }
+
+    .download-portfolio {
+        font-size: 1.4em;
+    }
+
+    .working-with-line {
+        height: 3px;
+    }
+
+    .working-with-p {
+        font-size: .9em;
+        padding: 2% 0px 0px 8%;
+    }
+
+    .download-section {
+        min-height: 356px;
+    }
+    .tittle-value{
+        font-size: 0.9em;
+    }
+
+    .values{
+        padding: 5% 3% 3% 5%;
+    }
+
+}
+
+
+@media(max-width: 300px) {
+    .team-instinct-text {
+        font-size: 0.6em;
+        letter-spacing: 3px;
+        padding: 0% 0px 5% 0px;
+    }
+
+    .footer-tittle {
+        font-size: .5em;
+        letter-spacing: 4px;
+    }
+
+    .team-instinct {
+        padding: 1% 0px 2% 4%;
+    }
+
+    .footer-card p {
+        font-size: .2em;
+    }
+
+    .download-section {
+        min-height: 306px;
+    }
+
+    .download-section-left-text {
+        font-size: .4em;
+    }
+
+    .portfolio-text-last-section {
+        padding: 2% 0px 0px 5%;
+    }
+
+    .download-portfolio {
+        line-height: .8em;
+        font-size: 1.2em;
+    }
+
+    .download-year {
+        padding: 0px 0px 0px 8%;
+        line-height: .8em;
+        font-size: 3em;
+    }
+
+    .download-section-line {
+        width: 73%;
+    }
+
+    .download-subection {
+        margin: 0px 0px 0px 21%;
+    }
+
+    .magic-button {
+        width: 51%;
+    }
+}

@@ -1,0 +1,80 @@
+
+@media (max-width: 800px) {
+    .download-section-line {
+        height: 5px;
+    }
+
+    .team-instinct {
+        padding: 4% 0px 2% 0px;
+    }
+    .banner-text-year {
+        font-size: 4.3em;
+    }
+
+    .banner-text-portfolio {
+        font-size: 1.7em;
+    }
+
+    .value-line {
+        width: 80%;
+        margin: .2em 0px 1.5em 0px;
+    }
+
+    .partners{
+        padding: 0px 0px 0px 0px;
+    }
+
+    .ad-arrow img{
+        margin: 81% 0px auto;
+    }
+
+
+    .description-value {
+        padding: 0px 2% 0px 2%;
+    }
+
+    .header-button {
+        width: 37%;
+        display: table;
+        margin: 0 auto;
+        padding: 1% 0px 0px 0px;
+    }
+
+    .spotligth-item-image {
+        position: relative;
+        margin: 0 auto;
+        display: none;
+    }
+
+    .show-500 {
+        display: table;
+    }
+
+    .spotligth-logo {
+        width: 2.5em;
+        height: 4.5em;
+    }
+
+    .instinct-section {
+        margin: 3% 0px 8% 0px;
+    }
+
+    .team-line {
+        height: 5px;
+    }
+
+    .banner-portfolio-section {
+        padding: 10% 0px 0px 7%;
+    }
+
+    .ligth-section {
+        padding: 15% 5% 3% 0px;
+    }
+
+
+
+    header {
+        border-bottom-right-radius: 100px 135px;
+        height: 852px;
+    }
+}
