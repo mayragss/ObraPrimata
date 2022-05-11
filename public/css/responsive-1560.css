@@ -18,6 +18,7 @@
 
     .tittle-value {
         font-size: 1.8em;
+        margin: 0px;
     }
 
     .download-section-rigth {
@@ -25,16 +26,17 @@
     }
 
     .value-line {
-        width: 80%;
+        width: 55%;
     }
 
     .spotligth-ligth {
         margin: 0px;
-        padding: 0px 3% 0px 0px;
+        padding: 1% 6% 0px 0px;
+        display: inline-block;
     }
 
     .banner-lets-section {
-        padding: 2% 0px 0px 1%;
+        padding: 0px 0px 0px 1%;
     }
 
     .team-text-section {
@@ -42,7 +44,7 @@
     }
 
     .description-value {
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
 
     .ad-arrow {
@@ -52,11 +54,11 @@
     .spotligth-slogan {
         margin: 0 auto;
         display: table;
-        letter-spacing: 11px;
+        letter-spacing: 17px;
         font-family: light-font;
         padding: 4% 0px 0px 0px;
         font-size: .8em;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     .download-section {
@@ -67,16 +69,20 @@
     }
 
     .download-portfolio {
-        font-size: 3.8em;
+        font-size: 3.4em;
         line-height: .4em;
     }
 
     .download-year {
-        font-size: 9.3em;
+        font-size: 8.3em;
+    }
+
+    .partners {
+        padding: 0px 0px 0px 4%;
     }
 
     .banner-text-portfolio {
-        font-size: 3.9em;
+        font-size: 3.5em;
     }
 
     .banner-portfolio-section {
@@ -85,10 +91,6 @@
 
     .ligth-section {
         padding: 15% 5% 3% 0px;
-    }
-
-    .spotligth-ligth {
-        display: inline-block;
     }
 
     .spotligth-logo {
@@ -102,11 +104,11 @@
     }
 
     header {
-        height: 800px;
+        height: 723px;
     }
 
     .banner-lets-text {
-        font-size: 16.4em;
+        font-size: 15.4em;
         line-height: .8em;
         font-weight: 900;
         font-style: italic;
@@ -114,20 +116,20 @@
     }
 
     .banner-text-year {
-        font-size: 9.6em;
+        font-size: 8.6em;
         line-height: 0.9em;
     }
 
     .header-download-subection {
-        padding: 5% 0px 0px 8%;
+        padding: 5% 0px 0px 12%;
     }
 
     .banner-portfolio-border{
-        height: 8px;
+        height: 6px;
     }
 
     .header-button {
-        width: 59%;
+        width: 41%;
     }
 
     .ad-image {
@@ -150,7 +152,7 @@
     .working-with-line {
         height: 5px;
         background-color: #b92038;
-        width: 60%;
+        width: 54%;
         margin: 0px 0px 2.5em 0px;
     }
 
@@ -186,7 +188,7 @@
     }
 
     .magic-button {
-        width: 70%;
+        width: 59%;
         box-shadow: 5px 2px 5px black;
     }
 

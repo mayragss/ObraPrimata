@@ -1,7 +1,12 @@
 const route= require('express').Router();
 
-route.get('/', (req,res)=>{
+
+route.get('/old', (req,res)=>{
     res.render('index')
+});
+
+route.get('/', (req,res)=>{
+    res.render('index-safari')
 });
 
 

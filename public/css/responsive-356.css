@@ -1,9 +1,3 @@
-@media(max-width: 386px) {
-    .description-value {
-        font-size: 9px;
-    }
-}
-
 @media(max-width: 356px) {
     .ad-arrow {
         padding: 16px 0px 0px 2%;
