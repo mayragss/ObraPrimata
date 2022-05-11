@@ -130,6 +130,7 @@ header {
     -webkit-hyphens: auto;
     hyphens: auto;
     color: rgba(228, 225, 225, 0.95);
+    font-style: italic;
 }
 
 .no-padding {
