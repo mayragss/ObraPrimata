@@ -1,6 +1,9 @@
 @import "index.css";
 
 @media (max-width:4000px) {
+    .spotligth-slogan {
+        font-size: 1.2em;
+        }
 
     .team-text-section{
         padding: 5% 0px 6% 0px;
