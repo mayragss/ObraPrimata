@@ -1,3 +1,9 @@
+@media (max-width: 1900px) {
+    .ad-arrow {
+        min-height: 369px;
+    }
+}
+
 @media (max-width: 1800px) {
     .footer-card p {
         font-size: 1.2em;
@@ -10,7 +16,8 @@
     .working-with-p {
         font-size: 4.4em;
     }
-    .team-instinct-text{
+
+    .team-instinct-text {
         letter-spacing: 22px;
     }
 }
