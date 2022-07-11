@@ -7,6 +7,12 @@
     opacity: 0.5;
 }
 
+@media (max-width: 3200px) {
+    .ad-arrow {
+        min-height: 485px;
+    }
+}
+
 @media (max-width:14000px) {
 
     .ad-image {
@@ -20,7 +26,7 @@
     .ad-arrow {
         background-color: #7c7b7b54;
         margin: 1% 0px 0px 0px;
-        min-height: 378px;
+        min-height: 578px;
     }
 
     .ad-arrow .left {

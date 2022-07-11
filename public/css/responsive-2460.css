@@ -205,3 +205,9 @@
     }
 
 }
+
+@media (max-width: 2200px) {
+    .ad-arrow {
+        min-height: 425px;
+    }
+}
