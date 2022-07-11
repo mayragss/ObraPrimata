@@ -1,11 +1,67 @@
 @import "index.css";
 
-@media (max-width:4000px) {
-    .spotligth-slogan {
-        font-size: 1.2em;
-        }
+.hide{
+    display: none;
+}
+.ad-arrow img:hover{
+    opacity: 0.5;
+}
 
-    .team-text-section{
+@media (max-width:14000px) {
+
+    .ad-image {
+        padding: 0px 0px 0px 0px;
+        margin: 0 auto;
+        display: table;
+        min-height: 300px;
+        border-radius: 21px;
+    }
+
+    .ad-arrow {
+        background-color: #7c7b7b54;
+        margin: 1% 0px 0px 0px;
+        min-height: 378px;
+    }
+
+    .ad-arrow .left {
+        margin: 0px 0px 0px 7%;
+    }
+
+    .ad-arrow .right {
+        margin: 0px 7% 0px 0px;
+    }
+
+    .ad-arrow img {
+        margin: 0px 0px 0px 0px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0px 0px 0px 1%;
+        width: 22%;
+        filter: grayscale(100%);
+        height: 42%;
+    }
+
+    .embed-container {
+        position: relative;
+        padding: 0px 0px 43% 0px;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        border-radius: 11px;
+    }
+
+    .embed-container iframe,
+    .embed-container object,
+    .embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .team-text-section {
         padding: 5% 0px 6% 0px;
     }
 
@@ -23,12 +79,8 @@
         height: 6px;
     }
 
-    .download-section-line{
+    .download-section-line {
         height: 9px;
-    }
-
-    .ad-arrow {
-        background-color: rgb(27, 27, 29);
     }
 
     .working-with-line {
@@ -122,7 +174,7 @@
         padding: 0px 0px 0px 16%;
     }
 
-    .tittle{
+    .tittle {
         font-size: 1.6em;
     }
 

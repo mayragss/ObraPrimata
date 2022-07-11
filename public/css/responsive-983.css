@@ -1,6 +1,8 @@
 
-
-@media (max-width: 983px) {
+@media (max-width: 999px) {
+    .ad-arrow {
+        min-height: 198px;
+    }
 
     .download-portfolio {
         font-size: 4em;
@@ -142,24 +144,11 @@
 
     .header-button {
         width: 52%;
-    }
-
-    .ad-image {
-        margin: 0 auto;
-        display: table;
-        min-height: 300px;
-        max-height: 400px;
-        background-color: blue;
-        background-color: rgba(27, 27, 29, 0.86);
-        border-radius: 21px;
-    }
+    } 
 
 
     .ad-arrow img {
-        margin: 81% 0px auto;
-        width: 51px;
-        height: 75px;
-        filter: grayscale(100%);
+        margin: 0px;
     }
 
     .working-with-line {
@@ -173,4 +162,10 @@
         display: none;
     }
 
+}
+
+@media (max-width: 942px){
+    .ad-arrow {
+        min-height: 185px;
+    }
 }

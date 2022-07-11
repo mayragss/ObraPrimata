@@ -1,10 +1,9 @@
-
 @media (max-width: 2460px) {
     .tittle-value {
         font-size: 2.8em;
     }
 
-    .team-text-section{
+    .team-text-section {
         padding: 5% 0px 6% 0px;
     }
 
@@ -25,17 +24,13 @@
         padding: 1% 7% 0px 0px
     }
 
-    .values{
+    .values {
         padding: 7% 8% 7% 8%;
     }
 
     .description-value {
         font-size: 1.5em;
         padding: 0px 18% 0px 0px;
-    }
-
-    .ad-arrow {
-        padding: 0px;
     }
 
     .spotligth-slogan {
@@ -107,23 +102,10 @@
 
     .header-button {
         width: 52%;
-    }
+    } 
 
-    .ad-image {
-        margin: 0 auto;
-        display: table;
-        min-height: 330px;
-        max-height: 400px;
-        background-color: blue;
-        background-color: rgba(27, 27, 29, 0.86);
-        border-radius: 21px;
-    }
-
-    .ad-arrow img {
-        margin: 30% 0px auto;
-        width: 51px;
-        height: 75px;
-        filter: grayscale(100%);
+    .ad-arrow .right{
+        right: 5%;
     }
 
     .working-with-line {
@@ -170,7 +152,7 @@
         display: table;
         padding: 2% 0px 0px 0px;
     }
-    
+
 
     .title {
         font-size: 1.4em;

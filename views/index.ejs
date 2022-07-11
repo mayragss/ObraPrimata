@@ -12,23 +12,23 @@
 
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/css/index.css">
-        <link rel="stylesheet" href="/css/responsive-3000.css">
-        <link rel="stylesheet" href="/css/responsive-2460.css">
-        <link rel="stylesheet" href="/css/responsive-1800.css">
-        <link rel="stylesheet" href="/css/responsive-1560.css">
-        <link rel="stylesheet" href="/css/responsive-1400.css">
-        <link rel="stylesheet" href="/css/responsive-1200.css">
-        <link rel="stylesheet" href="/css/responsive-1024.css">
-        <link rel="stylesheet" href="/css/responsive-983.css">
-        <link rel="stylesheet" href="/css/responsive-800.css">
-        <link rel="stylesheet" href="/css/responsive-790.css">
-        <link rel="stylesheet" href="/css/responsive-600.css">
-        <link rel="stylesheet" href="/css/responsive-583.css">
-        <link rel="stylesheet" href="/css/responsive-450.css">
-        <link rel="stylesheet" href="/css/responsive-356.css">
-        <link rel="stylesheet" href="/css/responsive-200.css">
- 
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/responsive-3000.css">
+    <link rel="stylesheet" href="/css/responsive-2460.css">
+    <link rel="stylesheet" href="/css/responsive-1800.css">
+    <link rel="stylesheet" href="/css/responsive-1560.css">
+    <link rel="stylesheet" href="/css/responsive-1400.css">
+    <link rel="stylesheet" href="/css/responsive-1200.css">
+    <link rel="stylesheet" href="/css/responsive-1024.css">
+    <link rel="stylesheet" href="/css/responsive-983.css">
+    <link rel="stylesheet" href="/css/responsive-800.css">
+    <link rel="stylesheet" href="/css/responsive-790.css">
+    <link rel="stylesheet" href="/css/responsive-600.css">
+    <link rel="stylesheet" href="/css/responsive-583.css">
+    <link rel="stylesheet" href="/css/responsive-450.css">
+    <link rel="stylesheet" href="/css/responsive-356.css">
+    <link rel="stylesheet" href="/css/responsive-200.css">
+
     <title>Obra Primata</title>
 
 
@@ -82,9 +82,9 @@
                         <div class="banner-portfolio-border"></div>
                     </div>
                     <a href="/portfolio" target="_blank">
-                    <div class="header-download-subection">
-                        <img class="header-button" src="images/download.png">
-                    </div>
+                        <div class="header-download-subection">
+                            <img class="header-button" src="images/download.png">
+                        </div>
                     </a>
                 </div>
 
@@ -97,14 +97,40 @@
     </header>
 
     <div class="row ad">
-        <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 ad-arrow">
-            <img src="images/arrow-left.png">
+
+        <div class="col-md-12 no-padding">
+            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-2 ad-arrow">
+                <img class="left" onclick="previous()" src="images/arrow-left.png">
+            </div>
+            <aside class="col-md-6 col-lg-6 col-sm-6 col-xs-8 ad-image">
+                <div class="video-container">
+                    <div class='embed-container active' id="1">
+                        <iframe src='https://www.youtube.com/embed/HypoWqiP2jI' frameborder='0'allowfullscreen></iframe>
+                    </div>
+
+                    <div class='embed-container hide' id="2">
+                        <iframe src='https://www.youtube.com/embed//9o-8MpPzOHQ' frameborder='0'allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class='embed-container hide' id="3">
+                        <iframe src='https://www.youtube.com/embed//wlA90P4VlH0' frameborder='0'allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class='embed-container hide' id="4">
+                        <iframe src='https://www.youtube.com/embed//94Udf0Se1SQ' frameborder='0'allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class='embed-container hide' id="5">
+                        <iframe src='https://www.youtube.com/embed//NABNMFL9sVU' frameborder='0'allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </aside>
+            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-2 ad-arrow">
+                <img class="right" onclick="next()" style="float: right;" src="images/arrow-right.png">
+            </div>
         </div>
-        <div class="col-md-8 col-lg-8 col-sm-8 col-xs-8 ad-image">
-            &nbsp; </div>
-        <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 ad-arrow">
-            <img style="float: right;" src="images/arrow-right.png">
-        </div>
+
     </div>
 
     <div class="row values web-values">
@@ -177,269 +203,270 @@
 
     <%- include('mobile-values.ejs') %>
 
-    <div class="col-md-12 no-padding" style="position: relative;">
-        <img src="images/gift.png" style="width: 100%;">
-    </div>
-
-    <div class="row section-working-label">
-        <div class="col-md-12 no-padding">
-            <p class="working-with-p">Trabalhando com
-            </p>
-            <div class="working-with-line "></div>
-        </div>
-    </div>
-
-    <div class="row partners">
-        <div class="col-lg-1 col-md-1"></div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/1.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/2.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/3.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/4.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/5.png">
-        </div>
-        <div class="col-lg-1 col-md-1 small-display-none"></div>
-
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 small-display-block">
-            <img class="work-img" src="/images/6.png">
+        <div class="col-md-12 no-padding" style="position: relative;">
+            <img src="images/gift.png" style="width: 100%;">
         </div>
 
-    </div>
-
-
-    <div class="row partners">
-        <div class="col-lg-1 col-md-1"></div>
-        <div class="col-lg-2 col-md-2 small-display-none">
-            <img class="work-img" src="/images/6.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/7.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/8.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/9.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/10.png">
-        </div>
-        <div class="col-lg-1 col-md-1 small-display-none"></div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 small-display-block">
-            <img class="work-img" src="/images/11.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 small-display-block">
-            <img class="work-img" src="/images/12.png">
-        </div>
-    </div>
-
-
-    <div class="row partners">
-        <div class="col-lg-1 col-md-1"></div>
-        <div class="col-lg-2 col-md-2 small-display-none">
-            <img class="work-img" src="/images/11.png">
-        </div>
-        <div class="col-lg-2 col-md-2 small-display-none">
-            <img class="work-img" src="/images/12.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/13.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/14.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/15.png">
-        </div>
-        <div class="col-lg-1 col-md-1 small-display-none"></div>
-    </div>
-
-
-    <div class="row partners">
-        <div class="col-lg-1 col-md-1"></div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-            <img class="work-img" src="/images/17.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-            <img class="work-img" src="/images/17.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/16.png">
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-            <img class="work-img" src="/images/17.png">
-        </div>
-        <div class="col-lg-2 col-md-2 small-display-none">
-            <img class="work-img" src="/images/17.png">
-        </div>
-        <div class="col-lg-1 col-md-1"></div>
-    </div>
-
-    <div class="row download-section">
-
-        <div class="col-lg-6 col-md-6 col-sm-12 download-section-left">
-            <em>
-                <p class="download-section-left-text banner-2-1">LET'S</p>
-                <p class="download-section-left-text banner-2-2">MAKE</p>
-                <p class="download-section-left-text banner-2-3">MAGIC</p>
-            </em>
+        <div class="row section-working-label">
+            <div class="col-md-12 no-padding">
+                <p class="working-with-p">Trabalhando com
+                </p>
+                <div class="working-with-line "></div>
+            </div>
         </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-12 download-section-rigth">
+        <div class="row partners">
+            <div class="col-lg-1 col-md-1"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/1.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/2.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/3.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/4.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/5.png">
+            </div>
+            <div class="col-lg-1 col-md-1 small-display-none"></div>
 
-            <div class="portfolio-text-last-section">
-                <p class="download-portfolio">PORTFÓLIO</p>
-                <p class="download-year">2022</p>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 small-display-block">
+                <img class="work-img" src="/images/6.png">
             </div>
 
+        </div>
 
-            <div class="download-section-line"></div>
-            <div class="download-section-button">
-                <a href="/portfolio" target="_blank">
-                <div class="download-subection">
-                    <img class="magic-button" src="images/download.png">
+
+        <div class="row partners">
+            <div class="col-lg-1 col-md-1"></div>
+            <div class="col-lg-2 col-md-2 small-display-none">
+                <img class="work-img" src="/images/6.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/7.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/8.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/9.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/10.png">
+            </div>
+            <div class="col-lg-1 col-md-1 small-display-none"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 small-display-block">
+                <img class="work-img" src="/images/11.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 small-display-block">
+                <img class="work-img" src="/images/12.png">
+            </div>
+        </div>
+
+
+        <div class="row partners">
+            <div class="col-lg-1 col-md-1"></div>
+            <div class="col-lg-2 col-md-2 small-display-none">
+                <img class="work-img" src="/images/11.png">
+            </div>
+            <div class="col-lg-2 col-md-2 small-display-none">
+                <img class="work-img" src="/images/12.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/13.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/14.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/15.png">
+            </div>
+            <div class="col-lg-1 col-md-1 small-display-none"></div>
+        </div>
+
+
+        <div class="row partners">
+            <div class="col-lg-1 col-md-1"></div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <img class="work-img" src="/images/17.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <img class="work-img" src="/images/17.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/16.png">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <img class="work-img" src="/images/17.png">
+            </div>
+            <div class="col-lg-2 col-md-2 small-display-none">
+                <img class="work-img" src="/images/17.png">
+            </div>
+            <div class="col-lg-1 col-md-1"></div>
+        </div>
+
+        <div class="row download-section">
+
+            <div class="col-lg-6 col-md-6 col-sm-12 download-section-left">
+                <em>
+                    <p class="download-section-left-text banner-2-1">LET'S</p>
+                    <p class="download-section-left-text banner-2-2">MAKE</p>
+                    <p class="download-section-left-text banner-2-3">MAGIC</p>
+                </em>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 download-section-rigth">
+
+                <div class="portfolio-text-last-section">
+                    <p class="download-portfolio">PORTFÓLIO</p>
+                    <p class="download-year">2022</p>
                 </div>
+
+
+                <div class="download-section-line"></div>
+                <div class="download-section-button">
+                    <a href="/portfolio" target="_blank">
+                        <div class="download-subection">
+                            <img class="magic-button" src="images/download.png">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row section-working-label">
+            <div class="col-md-12 no-padding team-section">
+                <div class="col-md-3 col-lg-3 team-text-section">
+                    <p class="team-p team-text-float">O TEAM
+                    </p>
+                    <div class="team-line-tittle "></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row team-instinct">
+            <p class="team-instinct-text">INSTINTO CRIATIVO</p>
+        </div>
+
+        <div class="row team-second-section">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 team-img">
+                <img src="images/team/2.png">
+                <p class="title"> SUELI CARLOS</p>
+                <p class="office"><em>GESTORA DE CLIENTES</em></p>
+                <p class="office">&nbsp;</p>
+                <div class="team-line"></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 team-img">
+                <img src="images/team/3.png">
+                <p class="title"> ELIZABETH FERNANDO</p>
+                <p class="office"><em>DESIGNER</em></p>
+                <p class="office"><em>UX & UI</em></p>
+                <div class="team-line"></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 team-img">
+                <img src="images/team/4.png">
+                <p class="title">IVANIRA OLIVEIRA </p>
+                <p class="office"><em>DESIGNER</em></p>
+                <p class="office"><em>MEDIA MANAGER</em></p>
+                <div class="team-line"></div>
+            </div>
+        </div>
+
+        <div class="row team-second-section">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 team-img">
+                <img src="images/team/5.png">
+                <p class="title">MAURO FRANÇA </p>
+                <p class="office"><em>FUNDADOR</em></p>
+                <p class="office"><em>DIRETOR CRIATIVO</em></p>
+                <div class="team-line"></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 team-img">
+                <img src="images/team/6.png">
+                <p class="title">MAURO SÉRGIO </p>
+                <p class="office"><em>CO-FUNDADOR</em></p>
+                <p class="office"><em>BUSINESS DEVELOPMENT</em></p>
+                <div class="team-line"></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 team-img">
+                <img src="images/team/7.png">
+                <p class="title">HÉLDER KIALA </p>
+                <p class="office"><em>CO-FUNDADOR</em></p>
+                <p class="office"><em>DIRECTOR EXECUTIVO</em></p>
+                <div class="team-line"></div>
+            </div>
+        </div>
+
+
+        <div class="row col-md-12" style="height: 50px; background-color: white;"></div>
+
+        <footer>
+            <div class="col-md-12 footer">
+                <p class="footer-tittle">INSTINTO CRIATIVO</p>
+            </div>
+
+            <div class="col-md-12 contact-section">
+                <a class="footer-link" href="https://www.instagram.com/obra_primata/">
+                    <div class="col-md-2 col-xs-2 footer-card">
+                        <div class="icon"><i class="fa fa-instagram"></i></div>
+                        <div>
+                            <p>obra_primata</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="footer-link" href="https://www.facebook.com/people/Obra-Primata/100054256520443/">
+                    <div class="col-md-2 col-xs-2 footer-card">
+                        <div class="icon"><i class="fa fa-facebook"></i></div>
+                        <div>
+                            <p>obra_primata</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="footer-link" href="https://www.behance.net/obraprimata">
+                    <div class="col-md-2 col-xs-2 footer-card">
+                        <div class="icon"><i class="fa fa-behance"></i></div>
+                        <div>
+                            <p>obra primata</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="footer-link" href="tel:+244 925 770 777">
+                    <div class="col-md-2 col-xs-2 footer-card">
+                        <div class="icon"><i class="fa fa-whatsapp"></i></div>
+                        <div>
+                            <p>+244 925 770 777</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="footer-link" href="mailto:info@obraprimata.com">
+                    <div class="col-md-2 col-xs-2 footer-card">
+                        <div class="icon"><i class="fa fa-envelope"></i></div>
+                        <div>
+                            <p>info@obraprimata.com</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="footer-link" href="/">
+                    <div class="col-md-2 col-xs-2 footer-card">
+                        <div class="icon"><i class="fa fa-globe"></i></div>
+                        <div>
+                            <p>www.obraprimata.com</p>
+                        </div>
+                    </div>
                 </a>
             </div>
-        </div>
-    </div>
-
-    <div class="row section-working-label">
-        <div class="col-md-12 no-padding team-section">
-            <div class="col-md-3 col-lg-3 team-text-section">
-                <p class="team-p team-text-float">O TEAM
-                </p>
-                <div class="team-line-tittle "></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row team-instinct">
-        <p class="team-instinct-text">INSTINTO CRIATIVO</p>
-    </div>
-
-    <div class="row team-second-section">
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 team-img">
-            <img src="images/team/2.png">
-            <p class="title"> SUELI CARLOS</p>
-            <p class="office"><em>GESTORA DE CLIENTES</em></p>
-            <p class="office">&nbsp;</p>
-            <div class="team-line"></div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 team-img">
-            <img src="images/team/3.png">
-            <p class="title"> ELIZABETH FERNANDO</p>
-            <p class="office"><em>DESIGNER</em></p>
-            <p class="office"><em>UX & UI</em></p>
-            <div class="team-line"></div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 team-img">
-            <img src="images/team/4.png">
-            <p class="title">IVANIRA OLIVEIRA </p>
-            <p class="office"><em>DESIGNER</em></p>
-            <p class="office"><em>MEDIA MANAGER</em></p>
-            <div class="team-line"></div>
-        </div>
-    </div>
-
-    <div class="row team-second-section">
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 team-img">
-            <img src="images/team/5.png">
-            <p class="title">MAURO FRANÇA </p>
-            <p class="office"><em>FUNDADOR</em></p>
-            <p class="office"><em>DIRETOR CRIATIVO</em></p>
-            <div class="team-line"></div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 team-img">
-            <img src="images/team/6.png">
-            <p class="title">MAURO SÉRGIO </p>
-            <p class="office"><em>CO-FUNDADOR</em></p>
-            <p class="office"><em>BUSINESS DEVELOPMENT</em></p>
-            <div class="team-line"></div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 team-img">
-            <img src="images/team/7.png">
-            <p class="title">HÉLDER KIALA </p>
-            <p class="office"><em>CO-FUNDADOR</em></p>
-            <p class="office"><em>DIRECTOR EXECUTIVO</em></p>
-            <div class="team-line"></div>
-        </div>
-    </div>
+        </footer>
 
 
-    <div class="row col-md-12" style="height: 50px; background-color: white;"></div>
-
-    <footer>
-        <div class="col-md-12 footer">
-            <p class="footer-tittle">INSTINTO CRIATIVO</p>
-        </div>
-
-        <div class="col-md-12 contact-section">
-            <a class="footer-link" href="https://www.instagram.com/obra_primata/">
-                <div class="col-md-2 col-xs-2 footer-card">
-                    <div class="icon"><i class="fa fa-instagram"></i></div>
-                    <div>
-                        <p>obra_primata</p>
-                    </div>
-                </div>
-            </a>
-
-            <a class="footer-link" href="https://www.facebook.com/people/Obra-Primata/100054256520443/">
-                <div class="col-md-2 col-xs-2 footer-card">
-                    <div class="icon"><i class="fa fa-facebook"></i></div>
-                    <div>
-                        <p>obra_primata</p>
-                    </div>
-                </div>
-            </a>
-
-            <a class="footer-link" href="https://www.behance.net/obraprimata">
-                <div class="col-md-2 col-xs-2 footer-card">
-                    <div class="icon"><i class="fa fa-behance"></i></div>
-                    <div>
-                        <p>obra primata</p>
-                    </div>
-                </div>
-            </a>
-
-            <a class="footer-link" href="tel:+244 925 770 777">
-                <div class="col-md-2 col-xs-2 footer-card">
-                    <div class="icon"><i class="fa fa-whatsapp"></i></div>
-                    <div>
-                        <p>+244 925 770 777</p>
-                    </div>
-                </div>
-            </a>
-
-            <a class="footer-link" href="mailto:info@obraprimata.com">
-                <div class="col-md-2 col-xs-2 footer-card">
-                    <div class="icon"><i class="fa fa-envelope"></i></div>
-                    <div>
-                        <p>info@obraprimata.com</p>
-                    </div>
-                </div>
-            </a>
-
-            <a class="footer-link" href="/">
-                <div class="col-md-2 col-xs-2 footer-card">
-                    <div class="icon"><i class="fa fa-globe"></i></div>
-                    <div>
-                        <p>www.obraprimata.com</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </footer>
-
-
+        <script src="/js/slider.js"></script>
 </body>
 
 </html>

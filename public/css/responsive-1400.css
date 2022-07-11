@@ -1,4 +1,18 @@
-@media (max-width: 1400px) {
+
+@media (max-width:1445px){
+    .ad-arrow {
+        min-height: 293px;
+    }
+}
+
+@media (max-width:1400px) {
+    .embed-container {
+        padding: 0px 0px 49% 0px;
+    }
+    .ad-arrow {
+        margin: 23px 0px 0px 0px;
+        min-height: 283px;
+    }
     .description-value {
         padding: 0px 10% 0px 0px;
         font-size: 1.1em;

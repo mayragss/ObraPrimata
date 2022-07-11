@@ -1,4 +1,11 @@
-
+@media (max-width: 880px){
+    .ad-image{
+        min-height: 224px;
+    }
+    .ad-arrow {
+        min-height: 173px;
+    }
+}
 @media (max-width: 800px) {
     .download-section-line {
         height: 5px;
@@ -25,7 +32,7 @@
     }
 
     .ad-arrow img{
-        margin: 81% 0px auto;
+        margin: 0px;
     }
 
 

@@ -1,6 +1,13 @@
 
 
 @media (max-width: 1560px) {
+    
+    .ad-arrow {
+        min-height: 316px;
+    }
+    .embed-container {
+        padding: 0px 0px 46% 0px;
+    }
     .working-with-p {
         font-size: 4em;
     }
@@ -45,10 +52,6 @@
 
     .description-value {
         font-size: 1.1em;
-    }
-
-    .ad-arrow {
-        padding: 0px;
     }
 
     .spotligth-slogan {
@@ -132,21 +135,8 @@
         width: 41%;
     }
 
-    .ad-image {
-        margin: 0 auto;
-        display: table;
-        min-height: 300px;
-        max-height: 400px;
-        background-color: blue;
-        background-color: rgba(27, 27, 29, 0.86);
-        border-radius: 21px;
-    }
-
     .ad-arrow img {
-        margin: 40% 0px auto;
-        width: 51px;
-        height: 75px;
-        filter: grayscale(100%);
+        margin: 0px;
     }
 
     .working-with-line {
